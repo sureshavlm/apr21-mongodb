@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const mongoose = require('mongoose');
 const dbURL = "mongodb+srv://admin:admin!@cluster0.khoib.mongodb.net/apr21";
 
-//const dbURL = 'mongodb+srv://samialji:doo1nTbsHelJgByI@samialji84.vqouq.mongodb.net/apr21';
+//const dbURL = 'mongodb://localhost:27017/apr21';
 
 mongoose.connect(dbURL, { useNewUrlParser: true } ); //connected to MongoDB
 
