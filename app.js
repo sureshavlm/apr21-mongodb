@@ -5,6 +5,8 @@ const path = require('path');
 const userRouter = require('./routes/user');
 const employeeRouter = require('./routes/employee');
 
+console.log('**** Program started ****');
+
 var db = require('./db');//when the app starts db connection establishes
 
 const app = express();

@@ -1,6 +1,8 @@
 const chalk = require('chalk');
 const mongoose = require('mongoose');
-const dbURL = "mongodb://localhost:27017/apr21";
+const dbURL = "mongodb+srv://admin:admin!@cluster0.khoib.mongodb.net/apr21";
+
+//const dbURL = 'mongodb+srv://admin:admin!@cluster0.khoib.mongodb.net/apr21?retryWrites=true&w=majority';
 
 mongoose.connect(dbURL, { useNewUrlParser: true } ); //connected to MongoDB
 

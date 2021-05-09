@@ -7,7 +7,6 @@ const router = express.Router(); //creating sub-routes
 router.post('/login', (req, res) => {
 	User.findOne({ 
 		username: req.body.username
-		active: true
 		}, (err, db) => {
 		if(err)
 			throw err;
